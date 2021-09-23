@@ -1,1 +1,1 @@
-web: bin/demo-conference-stun
+worker: bin/demo-conference-stun

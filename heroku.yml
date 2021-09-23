@@ -3,4 +3,4 @@ build:
     - go
 
 run:
-  web: demo-conference-stun
+  worker: demo-conference-stun

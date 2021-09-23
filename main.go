@@ -23,7 +23,7 @@ func main() {
 	sigs := make(chan os.Signal, 1)
 	signal.Notify(sigs, syscall.SIGINT, syscall.SIGTERM)
 
-	realm := "localhost"
+	realm := "herokuapp.com"
 	if realm == "" {
 		log.Panic("REALM is a required environment variable")
 	}
